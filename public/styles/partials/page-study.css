@@ -104,7 +104,7 @@
     color: var(--color-primary);
 }
 
-.teacher-item footer button {
+.teacher-item footer .button {
     display: flex;
     width: 20rem;
     height: 5.6rem;
@@ -119,6 +119,11 @@
     text-decoration: none;
     transition: background 0.2s;
     margin-left: 1.6rem;
+}
+
+.teacher-item footer .button:hover {
+    background: var(--color-secondary-dark);
+    color: var(--color-line-in-white);
 }
 
 /*Verificação do tamanho do dispositivo*/

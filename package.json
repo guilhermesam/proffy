@@ -1,0 +1,27 @@
+{
+  "name": "nlw",
+  "version": "1.0.0",
+  "description": "Online study platform developed during Next Level Week by @Rocketseat",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/guilhermesam/proffy.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/guilhermesam/proffy/issues"
+  },
+  "homepage": "https://github.com/guilhermesam/proffy#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nunjucks": "^3.2.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
