@@ -126,6 +126,12 @@
     color: var(--color-line-in-white);
 }
 
+#page-study main .no-results {
+    max-width: 30rem;
+    margin: 12rem auto;
+    text-align: center;
+}
+
 /*Verificação do tamanho do dispositivo*/
 @media (min-width:700px) {
     #page-study #container {
